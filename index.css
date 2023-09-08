@@ -1,0 +1,134 @@
+* {
+  font-family: system-ui;
+}
+
+body,
+html {
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  max-height: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  z-index: 10;
+}
+
+header * {
+  margin: 0;
+}
+
+header hr {
+  opacity: 20%;
+  margin: 0 3em 0 3em;
+}
+
+#header-top {
+  padding: 0 3em 0 3em;
+  margin: 1em;
+  display: grid;
+  grid-template-columns: max-content max-content 1fr;
+  grid-template-rows: min-content;
+  align-items: baseline;
+}
+
+#breadcrumbs {
+  display: flex;
+  flex-direction: row;
+}
+
+#breadcrumbs li {
+  margin-right: 0.5em;
+  list-style-type: none;
+}
+
+#breadcrumbs li:first-child::before {
+  content: "";
+  display: none;
+}
+
+#breadcrumbs li::before {
+  content: ">";
+}
+
+#content-holder {}
+
+#content-switch {
+  justify-self: end;
+}
+
+#content-holder {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+}
+
+#content-nav {
+  width: 300px;
+  max-height: calc(100vh - 5em);
+  overflow-y: auto;
+  align-self: start;
+  position: sticky;
+  top: 5em;
+  left: 0;
+}
+
+#content-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#content {
+  z-index: 5;
+}
+
+#docs-nav {
+  width: 300px;
+  max-height: calc(100vh - 5em);
+  overflow-y: auto;
+  align-self: start;
+  justify-self: end;
+  position: sticky;
+  top: 5rem;
+  right: 0;
+}
+
+#docs-nav ul {
+  margin: 0;
+}
+
+.treeview ul {
+  margin: 0;
+  padding: 0;
+}
+
+.treeview li {
+  background: white url(list.gif) no-repeat left center;
+  list-style-type: none;
+  padding-left: 22px;
+  margin-bottom: 3px;
+}
+
+.treeview li.submenu {
+  /* Style for LI that contains sub lists (other ULs). */
+  background: white url(closed.gif) no-repeat left 1px;
+  cursor: hand !important;
+  cursor: pointer !important;
+}
+
+
+.treeview li.submenu ul {
+  /*Style for ULs that are children of LIs (submenu) */
+  display: none;
+  /*Hide them by default. Don't delete. */
+}
+
+.treeview .submenu ul li {
+  /*Style for LIs of ULs that are children of LIs (submenu) */
+  cursor: default;
+}
