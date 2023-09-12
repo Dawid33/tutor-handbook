@@ -87,6 +87,10 @@ header hr {
   z-index: 5;
 }
 
+#content code {
+  font-family: monospace;
+}
+
 #docs-nav {
   width: 300px;
   max-height: calc(100vh - 5em);
