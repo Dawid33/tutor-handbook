@@ -1,9 +1,4 @@
 
-
-
-- [first](/index.css)
-  - nested
-  - other
-  - long
-    - so deep bro
-- second
+- [Home](home.md)
+- [Meta](meta.md)
+- [Variables](variables.md)
