@@ -25,6 +25,7 @@
   </div>
 
   <script>
+    let base_url = "https://tutor-handbook.netlify.app";
 
     function change_content(file) {
       let req = new XMLHttpRequest();
@@ -51,7 +52,7 @@
           nav.innerHTML = finalMarkup;
         }
       };
-      req.open("GET", `http://127.0.0.1:4090/docs/${file}`, true)
+      req.open("GET", `${base_url}/${file}`, true)
       req.send();
     }
 
@@ -78,7 +79,7 @@
         }
       }
     };
-    nav_req.open("GET", "http://127.0.0.1:4090/docs/nav.md", true)
+    nav_req.open("GET", `${base_url}/docs/nav.md`, true)
     nav_req.send();
 
 
