@@ -4,7 +4,7 @@
    (b) Why does a variables data type matter?
 
 Variables are used to represent values that may be changed in the program.
-Variables are for representing data of a certain type. To use a variable, you
+Each variable denotes data of a certain type. To use a variable, you
 declare it by telling the compiler its name as well as what type of data it
 can store. The variable declaration tells the compiler to allocate appropriate
 amount of memory for the variable based on its data type.
@@ -12,7 +12,7 @@ amount of memory for the variable based on its data type.
 2. How can I assign a value to a variable?
 
 After a variable is declared, you can assign a value to it by using an
-assignment statement. In Java, the equal sign (=) is used as the assignment
+assignment statement. The equal sign (=) is used as the assignment
 operator. To assign a value to a variable, you must place the variable name
 to the left of the equals sign and an expression on the right. An expression
 represents a computation involving values, variables, and operators that, taking
