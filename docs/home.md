@@ -21,7 +21,7 @@ useful in relation to that topic. This section should not link back to other
 articles in the book. It should be focused on common pitfalls, additional /
 alternative learning resources for that topic and other things a student might
 be interested in.  Resources about tangential issues that the student might be
-facing are another good choice.
+facing at that stage in their studies are another good choice.
 
 How a tutor uses the handbook is entirely up to the tutor and student. For
 example, it may or may not be appropriate to watch the videos with the student
