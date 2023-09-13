@@ -11,19 +11,18 @@ amount of memory for the variable based on its data type.
 
 2. How can I assign a value to a variable?
 
-After a variable is declared, you can assign a value to it by using an
-assignment statement. The equal sign (=) is used as the assignment
-operator. To assign a value to a variable, you must place the variable name
+After a variable is declared you can assign a value to it by using an assignment
+statement (=). To assign a value to a variable, you must place the variable name
 to the left of the equals sign and an expression on the right. An expression
 represents a computation involving values, variables, and operators that, taking
 them together, evaluates to a value.
 
+## Digging Deeper
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EbxbE4CpdF4?si=RuBrKPqD8790ucnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 * In what way is it different to use a variable name on the left side of an
-assignment statment compared to the right side in an expression?
-
+assignment statement compared to the right side in an expression?
 
 Things to consider: 
 
