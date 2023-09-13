@@ -9,6 +9,14 @@ alternative representation of that code called bytecode by using a compiler.
 Finally, the user can run (or execute) it by using a program called a java
 interpreter.
 
+Things to consider:
+
+- What is the Java source filename extension, and what is the Java bytecode
+file-name extension?
+
+- What are the input and output of a Java compiler?
+
+- What is the JVM?
 
 
 Further Reading:
