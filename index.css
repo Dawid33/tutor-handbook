@@ -55,8 +55,6 @@ header hr {
   content: ">";
 }
 
-#content-holder {}
-
 #content-switch {
   justify-self: end;
 }
