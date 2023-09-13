@@ -1,9 +1,9 @@
 # What is this?
 
 An example of a tutor handbook that can help facilite learning of computer
-science topics. This kind handbook should direct a tutor in the right direction,
-suggesting questions to enagage a student along with appropriate learning
-material for further study.
+science topics. This kind of handbook should direct a tutor in the right
+direction, suggesting questions to enagage a student along with appropriate
+learning material for further study.
 
 ## Structure
 
