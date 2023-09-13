@@ -69,6 +69,7 @@ header hr {
 }
 
 #content-nav {
+  display: none;
   width: 300px;
   max-height: calc(100vh - 5em);
   overflow-y: auto;
@@ -93,7 +94,7 @@ header hr {
 }
 
 #docs-nav {
-  width: 300px;
+  width: 150px;
   max-height: calc(100vh - 5em);
   overflow-y: auto;
   align-self: start;
