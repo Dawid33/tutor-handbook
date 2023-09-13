@@ -1,3 +1,5 @@
 - [Home](home.md)
 - Java
-    - [Variables](variables.md)
+    - [Compiler (WIP)](java/compiler.md)
+    - [Variables](java/variables.md)
+    - [Comiler Errors (WIP)](java/compiler_errors.md)
