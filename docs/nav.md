@@ -2,4 +2,7 @@
 - Java
     - [Compiler (WIP)](java/compiler.md)
     - [Variables](java/variables.md)
-    - [Comiler Errors (WIP)](java/compiler_errors.md)
+    - [Compiler Errors (WIP)](java/compiler_errors.md)
+    - [Control Flow (WIP)](java/control_flow.md)
+    - [Methods (WIP)](java/methods.md)
+    - [Classes (WIP)](java/classes.md)
