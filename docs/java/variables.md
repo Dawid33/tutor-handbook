@@ -31,6 +31,8 @@ statement?
 
 * What happens when a variable is used before it is given a value?
 
+* How can an assignment statement be evaluated as an expression?
+
 Further recommendations:
 
 - [Top Java Software Errors: 50 Common Java Errors and How to Avoid Them](https://stackify.com/top-java-software-errors/)
