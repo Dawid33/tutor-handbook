@@ -1,6 +1,6 @@
 - [Home](home.md)
 - Java
-    - [Compiler (WIP)](java/compiler.md)
+    - [Compilers](java/compiler.md)
     - [Variables](java/variables.md)
     - [Compiler Errors (WIP)](java/compiler_errors.md)
     - [If Statements (WIP)](java/if_stmts.md)
