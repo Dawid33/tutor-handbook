@@ -57,7 +57,11 @@
       req.send();
     }
 
-    change_content("variables.md");
+    if (location.pathname === "/" || location.pathname === "") {
+      change_content("home.md");
+    } else {
+      change_content(location.pathname);
+    }
 
     let nav_req = new XMLHttpRequest();
     nav_req.onreadystatechange = () => {
@@ -73,7 +77,7 @@
           link.attributes.setNamedItem(page);
           link.onclick = () => {
             let page_attr = link.attributes.getNamedItem("page").value;
-            console.log(page_attr)
+            window.history.pushState(page_attr, page_attr, `/${page_attr}`);
             change_content(page_attr);
           };
           link.href = "#"

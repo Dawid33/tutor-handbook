@@ -1,2 +1,3 @@
 - [Home](home.md)
-- [Variables](variables.md)
+- Java
+    - [Variables](variables.md)
