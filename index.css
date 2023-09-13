@@ -94,7 +94,7 @@ header hr {
 }
 
 #docs-nav {
-  width: 200px;
+  width: 250px;
   max-height: calc(100vh - 5em);
   overflow-y: auto;
   align-self: start;
