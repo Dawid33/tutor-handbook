@@ -10,65 +10,44 @@ html {
 header {
   position: sticky;
   top: 0px;
-  max-height: 5em;
+  background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background-color: white;
+  justify-content: space-between;
   z-index: 10;
+  grid-row: 1;
+  grid-column: 1 / -1;
 }
 
-header * {
+header div {
   margin: 0;
 }
 
 header hr {
+  margin: 0;
+  width: 100%;
   opacity: 20%;
-  margin: 0 3em 0 3em;
 }
 
 #header-top {
-  padding: 0 3em 0 3em;
-  margin: 1em;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: baseline;
 }
 
-#breadcrumbs {
-  display: flex;
-  flex-direction: row;
-}
-
-#breadcrumbs li {
-  margin-right: 0.5em;
-  list-style-type: none;
-}
-
-#breadcrumbs li:first-child::before {
-  content: "";
-  display: none;
-}
-
-#breadcrumbs li::before {
-  content: ">";
-}
-
-#content-switch {
-  justify-self: end;
-}
-
 #content-holder {
-  margin-top: 1em;
   display: grid;
-  grid-template-columns: 1fr 40em 1fr;
+  margin: auto;
+  max-width: max-content;
+  grid-template-columns: 16rem 40rem 16rem;
+  grid-template-rows: 5rem 1fr;
   position: relative;
 }
 
 #content-nav {
   display: none;
-  width: 300px;
+  width: min-content;
   max-height: calc(100vh - 5em);
   overflow-y: auto;
   align-self: start;
@@ -85,6 +64,7 @@ header hr {
 
 #content {
   z-index: 5;
+  grid-row: 2;
 }
 
 #content code {
@@ -92,20 +72,31 @@ header hr {
 }
 
 #docs-nav {
-  width: 250px;
+  width: 100%;
   max-height: calc(100vh - 5em);
   overflow-y: auto;
   align-self: start;
   justify-self: end;
   position: sticky;
   top: 5rem;
+  padding: 0;
   right: 0;
+  grid-row: 2;
 }
 
-#docs-nav ul {
-  margin: 0;
-}
+#docs-nav>ul {}
 
 #docs-nav li {
   padding-bottom: 0.25em;
+}
+
+@media screen and (max-width: 900px) {
+  #content-holder {
+    margin: 0 1.5em 0 1.5em;
+    grid-template-columns: 1fr;
+  }
+
+  #docs-nav {
+    display: none;
+  }
 }

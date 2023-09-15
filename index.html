@@ -7,15 +7,16 @@
 </head>
 
 <body>
-  <header>
-    <div id="header-top">
-      <h1>Handbook</h1>
-    </div>
-    <hr />
-  </header>
 
 
   <div id="content-holder">
+    <header>
+      <div id="header-top">
+        <h1>Handbook</h1>
+      </div>
+      <hr />
+    </header>
+
     <nav id="docs-nav">
       <ul id="docs-nav-root" class="treeview"></ul>
     </nav>
@@ -28,6 +29,7 @@
     let base_url = "https://tutor-handbook.netlify.app";
     // let base_url = "http://127.0.0.1:4090";
 
+    // Replace the content on the page with a file in the docs directory
     function change_content(file) {
       let req = new XMLHttpRequest();
       req.onreadystatechange = () => {
@@ -63,6 +65,7 @@
       change_content(location.pathname);
     }
 
+    // Update docs nav with nav.md
     let nav_req = new XMLHttpRequest();
     nav_req.onreadystatechange = () => {
       if (nav_req.readyState === XMLHttpRequest.DONE && nav_req.status == 200) {
