@@ -90,7 +90,7 @@ header hr {
   padding-bottom: 0.25em;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 720px) {
   #content-holder {
     margin: 0 1.5em 0 1.5em;
     grid-template-columns: 1fr;
