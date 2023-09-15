@@ -67,6 +67,10 @@ header hr {
   grid-row: 2;
 }
 
+#content * {
+  max-width: 100%;
+}
+
 #content code {
   font-family: monospace;
 }

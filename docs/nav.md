@@ -2,8 +2,8 @@
 - Java
     - [Compilers](java/compiler.md)
     - [Variables](java/variables.md)
-    - [Compiler Errors (WIP) asdfasadf ](java/compiler_errors.md)
-    - [If Statements (WIP)](java/if_stmts.md)
+    - [Compiler Errors (WIP)](java/compiler_errors.md)
+    - [Conditionals](java/if_stmts.md)
     - [Loops (WIP)](java/loops.md)
     - [Methods (WIP)](java/methods.md)
     - [Classes (WIP)](java/classes.md)
